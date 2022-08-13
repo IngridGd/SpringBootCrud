@@ -31,5 +31,6 @@ public class RespostaDto {
         this.mensagem = resposta.getMensagem();
         this.dataCriacao = resposta.getDataCriacao();
         this.nomeAutor = resposta.getAutor().getNome();
+
     }
 }
